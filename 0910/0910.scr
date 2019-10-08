@@ -1,0 +1,410 @@
+Script started on 2019-09-10 09:44:19+0900
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ touch 0910.txt
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ ll
+total 0
+drwxrwxrwx 1 system system 4096 Sep 10 09:46 [0m[34;42m.[0m/
+drwxrwxrwx 1 system system 4096 Sep 10 09:35 [34;42m..[0m/
+-rw-rw-rw- 1 system system    0 Sep 10 09:40 0910
+-rw-rw-rw- 1 system system    0 Sep 10 09:44 0910.scr
+-rw-rw-rw- 1 system system    0 Sep 10 09:46 0910.txt
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ lltouch 0910.txt
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ ll
+total 0
+drwxrwxrwx 1 system system 4096 Sep 10 09:46 [0m[34;42m.[0m/
+drwxrwxrwx 1 system system 4096 Sep 10 09:35 [34;42m..[0m/
+-rw-rw-rw- 1 system system    0 Sep 10 09:40 0910
+-rw-rw-rw- 1 system system    0 Sep 10 09:44 0910.scr
+-rw-rw-rw- 1 system system    0 Sep 10 09:47 0910.txt
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ cat > 0910.sam
+this is a sample tes xt
+Fight     Welcome Linux world!!!
+^C
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ cat > 0910.sam
+^[[A^[[B^[[B^[[A^[[A                    this is a ca  sample text
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ ll
+total 4
+drwxrwxrwx 1 system system 4096 Sep 10 09:49 [0m[34;42m.[0m/
+drwxrwxrwx 1 system system 4096 Sep 10 09:35 [34;42m..[0m/
+-rw-rw-rw- 1 system system 4096 Sep 10 09:50 0910
+-rw-rw-rw- 1 system system   22 Sep 10 09:50 0910.sam
+-rw-rw-rw- 1 system system    0 Sep 10 09:44 0910.scr
+-rw-rw-rw- 1 system system    0 Sep 10 09:47 0910.txt
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ cat 0910.sam
+this is a sample text
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ cat 0910.sam[K[K[Ktxt
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ cd ~
+]0;system@DESKTOP-CB40Q7H: ~[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~[00m$ cd sp/
+]0;system@DESKTOP-CB40Q7H: ~/sp[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp[00m$ dir
+0910
+]0;system@DESKTOP-CB40Q7H: ~/sp[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp[00m$ cd 09
+bash: cd: 09: No such file or directory
+]0;system@DESKTOP-CB40Q7H: ~/sp[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp[00m$ cd 0910/
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ dir
+0910  0910.sam	0910.scr  0910.txt
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ ll
+total 8
+drwxrwxrwx 1 system system 4096 Sep 10 09:49 [0m[34;42m.[0m/
+drwxrwxrwx 1 system system 4096 Sep 10 09:35 [34;42m..[0m/
+-rw-rw-rw- 1 system system 4096 Sep 10 09:50 0910
+-rw-rw-rw- 1 system system   22 Sep 10 09:50 0910.sam
+-rw-rw-rw- 1 system system 4096 Sep 10 09:52 0910.scr
+-rw-rw-rw- 1 system system    0 Sep 10 09:47 0910.txt
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ cd /
+]0;system@DESKTOP-CB40Q7H: /[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m/[00m$ pwd
+/
+]0;system@DESKTOP-CB40Q7H: /[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m/[00m$ cd ~
+]0;system@DESKTOP-CB40Q7H: ~[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~[00m$ pwd
+/home/system
+]0;system@DESKTOP-CB40Q7H: ~[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~[00m$ cd sq/
+bash: cd: sq/: No such file or directory
+]0;system@DESKTOP-CB40Q7H: ~[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~[00m$ cd sp/
+]0;system@DESKTOP-CB40Q7H: ~/sp[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp[00m$ cd 0910
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ ll
+total 8
+drwxrwxrwx 1 system system 4096 Sep 10 09:49 [0m[34;42m.[0m/
+drwxrwxrwx 1 system system 4096 Sep 10 09:35 [34;42m..[0m/
+-rw-rw-rw- 1 system system 4096 Sep 10 09:50 0910
+-rw-rw-rw- 1 system system   22 Sep 10 09:50 0910.sam
+-rw-rw-rw- 1 system system 4096 Sep 10 10:25 0910.scr
+-rw-rw-rw- 1 system system    0 Sep 10 09:47 0910.txt
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ //[K[Kll /etx[Kc/pas[Kaswd
+ls: cannot access '/etc/paaswd': No such file or directory
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ ll - [K/etc/passwd
+ls: invalid option -- '/'
+Try 'ls --help' for more information.
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ ll -/etc/passwd[C[1P/etc/passwd
+-rw-r--r-- 1 root root 1558 Sep 10 09:28 /etc/passwd
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ ll[K[Kcat /etx.[K[K[K[K[K/etx/passes[K[Kwd
+cat: /etx/passwd: No such file or directory
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ cat /etx/passwd[1P/passwdc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd/netif:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd/resolve:/usr/sbin/nologin
+syslog:x:102:106::/home/syslog:/usr/sbin/nologin
+messagebus:x:103:107::/nonexistent:/usr/sbin/nologin
+_apt:x:104:65534::/nonexistent:/usr/sbin/nologin
+lxd:x:105:65534::/var/lib/lxd/:/bin/false
+uuidd:x:106:110::/run/uuidd:/usr/sbin/nologin
+dnsmasq:x:107:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+landscape:x:108:112::/var/lib/landscape:/usr/sbin/nologin
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+pollinate:x:110:1::/var/cache/pollinate:/bin/false
+system:x:1000:1000:,,,:/home/system:/bin/bash
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ dta[K[K[Kdatd[Ke
+Tue Sep 10 11:07:38 KST 2019
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ hostm[Kname
+DESKTOP-CB40Q7H
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ umane[K[K[K[Knae,[K[Kme
+Linux
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ whi
+
+Command 'whi' not found, did you mean:
+
+  command 'who' from deb coreutils
+  command 'ghi' from deb ghi
+
+Try: sudo apt install <deb name>
+
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ ls
+0910  0910.sam  0910.scr  0910.txt
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ clre[K[K[Klear
+[3J[H[2J]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ passwd
+Changing password for system.
+(current) UNIX password: 
+passwd: Authentication token manipulation error
+passwd: password unchanged
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ ls
+0910  0910.sam  0910.scr  0910.txt
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ l[Kls root/bon[K[Kin
+ls: cannot access 'root/bin': No such file or directory
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ ls/root[K[K[K[K[K[K[Kls/bin /bin
+[0m[01;32mbash[0m                [01;32mcp[0m             [01;32mkbd_mode[0m    [01;36mnetcat[0m         [01;32mreadlink[0m                        [01;32mtar[0m
+[01;32mbtrfs[0m               [01;32mcpio[0m           [01;32mkill[0m        [01;32mnetstat[0m        [01;32mred[0m                             [01;32mtempfile[0m
+[01;32mbtrfs-debug-tree[0m    [01;32mdash[0m           [01;32mkmod[0m        [01;32mnetworkctl[0m     [01;32mrm[0m                              [01;32mtouch[0m
+[01;32mbtrfs-find-root[0m     [01;32mdate[0m           [01;32mless[0m        [01;36mnisdomainname[0m  [01;32mrmdir[0m                           [01;32mtrue[0m
+[01;32mbtrfs-image[0m         [01;32mdd[0m             [01;32mlessecho[0m    [01;32mntfs-3g[0m        [01;36mrnano[0m                           [01;32mudevadm[0m
+[01;32mbtrfs-map-logical[0m   [01;32mdf[0m             [01;36mlessfile[0m    [01;32mntfs-3g.probe[0m  [01;32mrun-parts[0m                       [01;32mulockmgr_server[0m
+[01;32mbtrfs-select-super[0m  [01;32mdir[0m            [01;32mlesskey[0m     [01;32mntfscat[0m        [01;32msed[0m                             [37;41mumount[0m
+[01;32mbtrfs-zero-log[0m      [01;32mdmesg[0m          [01;32mlesspipe[0m    [01;32mntfscluster[0m    [01;32msetfacl[0m                         [01;32muname[0m
+[01;36mbtrfsck[0m             [01;36mdnsdomainname[0m  [01;32mln[0m          [01;32mntfscmp[0m        [01;32msetfont[0m                         [01;32muncompress[0m
+[01;32mbtrfstune[0m           [01;36mdomainname[0m     [01;32mloadkeys[0m    [01;32mntfsfallocate[0m  [01;32msetupcon[0m                        [01;32municode_start[0m
+[01;32mbunzip2[0m             [01;32mdumpkeys[0m       [01;32mlogin[0m       [01;32mntfsfix[0m        [01;36msh[0m                              [01;32mvdir[0m
+[01;32mbusybox[0m             [01;32mecho[0m           [01;32mloginctl[0m    [01;32mntfsinfo[0m       [01;36msh.distrib[0m                      [01;32mwdctl[0m
+[01;32mbzcat[0m               [01;32med[0m             [01;32mlowntfs-3g[0m  [01;32mntfsls[0m         [01;32msleep[0m                           [01;32mwhich[0m
+[01;36mbzcmp[0m               [01;32megrep[0m          [01;32mls[0m          [01;32mntfsmove[0m       [01;32mss[0m                              [01;32mwhiptail[0m
+[01;32mbzdiff[0m              [01;32mfalse[0m          [01;32mlsblk[0m       [01;32mntfsrecover[0m    [01;36mstatic-sh[0m                       [01;36mwslpath[0m
+[01;36mbzegrep[0m             [01;32mfgconsole[0m      [01;36mlsmod[0m       [01;32mntfssecaudit[0m   [01;32mstty[0m                            [01;36mypdomainname[0m
+[01;32mbzexe[0m               [01;32mfgrep[0m          [01;32mmkdir[0m       [01;32mntfstruncate[0m   [37;41msu[0m                              [01;32mzcat[0m
+[01;36mbzfgrep[0m             [01;32mfindmnt[0m        [01;32mmkfs.btrfs[0m  [01;32mntfsusermap[0m    [01;32msync[0m                            [01;32mzcmp[0m
+[01;32mbzgrep[0m              [01;32mfsck.btrfs[0m     [01;32mmknod[0m       [01;32mntfswipe[0m       [01;32msystemctl[0m                       [01;32mzdiff[0m
+[01;32mbzip2[0m               [01;32mfuser[0m          [01;32mmktemp[0m      [01;36mopen[0m           [01;36msystemd[0m                         [01;32mzegrep[0m
+[01;32mbzip2recover[0m        [37;41mfusermount[0m     [01;32mmore[0m        [01;32mopenvt[0m         [01;32msystemd-ask-password[0m            [01;32mzfgrep[0m
+[01;36mbzless[0m              [01;32mgetfacl[0m        [37;41mmount[0m       [01;36mpidof[0m          [01;32msystemd-escape[0m                  [01;32mzforce[0m
+[01;32mbzmore[0m              [01;32mgrep[0m           [01;32mmountpoint[0m  [37;41mping[0m           [01;32msystemd-hwdb[0m                    [01;32mzgrep[0m
+[01;32mcat[0m                 [01;32mgunzip[0m         [01;36mmt[0m          [01;36mping4[0m          [01;32msystemd-inhibit[0m                 [01;32mzless[0m
+[01;32mchacl[0m               [01;32mgzexe[0m          [01;32mmt-gnu[0m      [01;36mping6[0m          [01;32msystemd-machine-id-setup[0m        [01;32mzmore[0m
+[01;32mchgrp[0m               [01;32mgzip[0m           [01;32mmv[0m          [01;32mplymouth[0m       [01;32msystemd-notify[0m                  [01;32mznew[0m
+[01;32mchmod[0m               [01;32mhostname[0m       [01;32mnano[0m        [01;32mps[0m             [01;32msystemd-sysusers[0m
+[01;32mchown[0m               [01;32mip[0m             [01;36mnc[0m          [01;32mpwd[0m            [01;32msystemd-tmpfiles[0m
+[01;32mchvt[0m                [01;32mjournalctl[0m     [01;32mnc.openbsd[0m  [01;36mrbash[0m          [01;32msystemd-tty-ask-password-agent[0m
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ echo &PATH
+[1] 237
+
+PATH: command not found
+[1]+  Done                    echo
+[1]+  Done                    echo
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ echo &[K$PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.UbuntuonWindows_1804.2019.521.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Java003/openjdk-12.0.2_windows-x64_bin/jdk-12.0.2/bin:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/snap/bin
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ dir /usr/bim[Kn
+NF				    host			      resizepart
+VGAuthService			    hostid			      rev
+[				    hostnamectl			      rgrep
+aa-enabled			    htop			      rlogin
+aa-exec				    hwe-support-status		      routef
+acpi_listen			    i386			      routel
+add-apt-repository		    iconv			      rsh
+addpart				    id				      rsync
+apport-bug			    igawk			      rtstat
+apport-cli			    info			      run-mailcap
+apport-collect			    infobrowser			      run-one
+apport-unpack			    infocmp			      run-one-constantly
+apropos				    infotocap			      run-one-until-failure
+apt				    install			      run-one-until-success
+apt-add-repository		    install-info		      run-this-one
+apt-cache			    instmodsh			      runcon
+apt-cdrom			    ionice			      rview
+apt-config			    ipcmk			      rvim
+apt-extracttemplates		    ipcrm			      savelog
+apt-ftparchive			    ipcs			      scp
+apt-get				    iptables-xml		      screen
+apt-key				    ischroot			      screendump
+apt-mark			    iscsiadm			      script
+apt-sortpkgs			    join			      scriptreplay
+arch				    json_pp			      sdiff
+at				    jsondiff			      see
+atq				    jsonpatch			      select-editor
+atrm				    jsonpointer			      sensible-browser
+automat-visualize3		    jsonschema			      sensible-editor
+awk				    kbdinfo			      sensible-pager
+b2sum				    kbxutil			      seq
+base32				    keep-one-running		      setarch
+base64				    kernel-install		      setfacl
+basename			    killall			      setkeycodes
+bashbug				    landscape-sysinfo		      setleds
+batch				    last			      setlogcons
+bc				    lastb			      setmetamode
+bootctl				    lastlog			      setpci
+bsd-from			    lcf				      setsid
+bsd-write			    ldd				      setterm
+busctl				    less			      sftp
+byobu				    lessecho			      sg
+byobu-config			    lessfile			      sha1sum
+byobu-ctrl-a			    lesskey			      sha224sum
+byobu-disable			    lesspipe			      sha256sum
+byobu-disable-prompt		    lexgrog			      sha384sum
+byobu-enable			    libnetcfg			      sha512sum
+byobu-enable-prompt		    link			      shasum
+byobu-export			    linux-check-removal		      showconsolefont
+byobu-janitor			    linux-update-symlinks	      showkey
+byobu-keybindings		    linux-version		      shred
+byobu-launch			    linux32			      shuf
+byobu-launcher			    linux64			      skill
+byobu-launcher-install		    lnstat			      slabtop
+byobu-launcher-uninstall	    loadkeys			      slogin
+byobu-layout			    loadunimap			      snap
+byobu-prompt			    locale			      snapctl
+byobu-quiet			    locale-check		      snapfuse
+byobu-reconnect-sockets		    localectl			      snice
+byobu-screen			    localedef			      soelim
+byobu-select-backend		    locate			      sort
+byobu-select-profile		    logger			      sosreport
+byobu-select-session		    logname			      splain
+byobu-shell			    look			      split
+byobu-silent			    lorder			      splitfont
+byobu-status			    lsattr			      ssh
+byobu-status-detail		    lsb_release			      ssh-add
+byobu-tmux			    lscpu			      ssh-agent
+byobu-ugraph			    lshw			      ssh-argv0
+byobu-ulevel			    lsinitramfs			      ssh-copy-id
+c_rehash			    lsipc			      ssh-import-id
+cal				    lslocks			      ssh-import-id-gh
+calendar			    lslogins			      ssh-import-id-lp
+captoinfo			    lsmem			      ssh-keygen
+catchsegv			    lsns			      ssh-keyscan
+catman				    lsof			      stat
+cautious-launcher		    lspci			      stdbuf
+cftp3				    lspgpot			      strace
+chacl				    lsusb			      strace-log-merge
+chage				    ltrace			      sudo
+chardet3			    lxc				      sudoedit
+chardetect3			    lxcfs			      sudoreplay
+chattr				    lxd				      sum
+chcon				    lzcat			      symcryptrun
+check-language-support		    lzcmp			      systemd-analyze
+chfn				    lzdiff			      systemd-cat
+chrt				    lzegrep			      systemd-cgls
+chsh				    lzfgrep			      systemd-cgtop
+ckbcomp				    lzgrep			      systemd-delta
+ckeygen3			    lzless			      systemd-detect-virt
+cksum				    lzma			      systemd-mount
+clear				    lzmainfo			      systemd-path
+clear_console			    lzmore			      systemd-resolve
+cloud-id			    man				      systemd-run
+cloud-init			    mandb			      systemd-socket-activate
+cloud-init-per			    manifest			      systemd-stdio-bridge
+cmp				    manpath			      systemd-umount
+codepage			    mapscrn			      tabs
+col				    mawk			      tac
+col1				    mcookie			      tail
+col2				    md5sum			      taskset
+col3				    md5sum.textutils		      tbl
+col4				    mdig			      tee
+col5				    mesg			      telnet
+col6				    migrate-pubring-from-classic-gpg  telnet.netkit
+col7				    miniterm			      test
+col8				    mk_modmap			      tic
+col9				    mkfifo			      time
+colcrt				    mksquashfs			      timedatectl
+colrm				    mlocate			      timeout
+column				    mtr				      tkconch3
+comm				    mtr-packet			      tload
+compose				    namei			      tmux
+conch3				    nawk			      toe
+corelist			    ncal			      top
+cpan				    neqn			      touch
+cpan5.26-x86_64-linux-gnu	    netkit-ftp			      tput
+crontab				    networkd-dispatcher		      tr
+csplit				    newgidmap			      tracepath
+ctail				    newgrp			      traceroute6
+ctstat				    newuidmap			      traceroute6.iputils
+curl				    ngettext			      trial3
+cut				    nice			      troff
+dbus-cleanup-sockets		    nl				      truncate
+dbus-daemon			    nohup			      tset
+dbus-monitor			    nproc			      tsort
+dbus-run-session		    nroff			      tty
+dbus-send			    nsenter			      twist3
+dbus-update-activation-environment  nslookup			      twistd3
+dbus-uuidgen			    nstat			      tzselect
+deallocvt			    nsupdate			      ua
+deb-systemd-helper		    ntfsdecrypt			      ubuntu-advantage
+deb-systemd-invoke		    numfmt			      ubuntu-bug
+debconf				    od				      ubuntu-core-launcher
+debconf-apt-progress		    on_ac_power			      ubuntu-support-status
+debconf-communicate		    openssl			      ucf
+debconf-copydb			    pager			      ucfq
+debconf-escape			    partx			      ucfr
+debconf-set-selections		    passwd			      ul
+debconf-show			    paste			      unattended-upgrade
+delpart				    pastebinit			      unattended-upgrades
+delv				    patch			      unexpand
+dh_bash-completion		    pathchk			      unicode_stop
+diff				    pbget			      uniq
+diff3				    pbput			      unlink
+dig				    pbputs			      unlzma
+dircolors			    pcimodules			      unmkinitramfs
+dirmngr				    pdb3			      unshare
+dirmngr-client			    pdb3.6			      unsquashfs
+dirname				    peekfd			      unxz
+do-release-upgrade		    perl			      update-alternatives
+dpkg				    perl5.26-x86_64-linux-gnu	      update-mime-database
+dpkg-deb			    perl5.26.1			      updatedb
+dpkg-divert			    perlbug			      updatedb.mlocate
+dpkg-maintscript-helper		    perldoc			      uptime
+dpkg-query			    perlivp			      usb-devices
+dpkg-split			    perlthanks			      usbhid-dump
+dpkg-statoverride		    pftp			      users
+dpkg-trigger			    pgrep			      utmpdump
+du				    pic				      uuidgen
+dumpkeys			    pico			      uuidparse
+eatmydata			    piconv			      vcs-run
+ec2metadata			    pinentry			      vi
+edit				    pinentry-curses		      view
+editor				    pinky			      vigpg
+eject				    pkaction			      vim
+enc2xs				    pkcheck			      vim.basic
+encguess			    pkexec			      vim.tiny
+env				    pkill			      vimdiff
+envsubst			    pkttyagent			      vimtutor
+eqn				    pl2pm			      vmhgfs-fuse
+ex				    pldd			      vmstat
+expand				    pmap			      vmtoolsd
+expiry				    pod2html			      vmware-checkvm
+expr				    pod2man			      vmware-guestproxycerttool
+factor				    pod2text			      vmware-hgfsclient
+faillog				    pod2usage			      vmware-namespace-cmd
+fallocate			    podchecker			      vmware-rpctool
+file				    podselect			      vmware-toolbox-cmd
+find				    pollinate			      vmware-vgauth-cmd
+flock				    pr				      vmware-vgauth-smoketest
+fmt				    preconv			      vmware-vmblock-fuse
+fold				    print			      vmware-xferlogs
+free				    printenv			      volname
+from				    printerbanner		      w
+ftp				    printf			      w.procps
+gawk				    prlimit			      wall
+geqn				    prove			      watch
+getconf				    prtstat			      watchgnupg
+getent				    psfaddtable			      wc
+getfacl				    psfgettable			      wget
+getkeycodes			    psfstriptable		      whatis
+getopt				    psfxtable			      whereis
+gettext				    pslog			      which
+gettext.sh			    pstree			      who
+ginstall-info			    pstree.x11			      whoami
+git				    ptar			      wifi-status
+git-receive-pack		    ptardiff			      write
+git-shell			    ptargrep			      wslfetch
+git-upload-archive		    ptx				      wslsys
+git-upload-pack			    purge-old-kernels		      wslupath
+gpasswd				    pwdx			      wslusc
+gpg				    py3clean			      wslvar
+gpg-agent			    py3compile			      wslview
+gpg-connect-agent		    py3versions			      x-www-browser
+gpg-wks-server			    pydoc3			      x86_64
+gpg-zip				    pydoc3.6			      xargs
+gpgconf				    pygettext3			      xauth
+gpgparsemail			    pygettext3.6		      xdelta3
+gpgsm				    pyhtmlizer3			      xdg-user-dir
+gpgsplit			    pyjwt3			      xdg-user-dirs-update
+gpgv				    python3			      xsubpp
+gpic				    python3-jsondiff		      xxd
+groff				    python3-jsonpatch		      xz
+grog				    python3-jsonpointer		      xzcat
+grops				    python3-jsonschema		      xzcmp
+grotty				    python3.6			      xzdiff
+groups				    python3.6m			      xzegrep
+growpart			    python3m			      xzfgrep
+gtbl				    rcp				      xzgrep
+h2ph				    rdma			      xzless
+h2xs				    realpath			      xzmore
+hd				    rename.ul			      yes
+head				    renice			      zdump
+helpztags			    reset			      zipdetails
+hexdump				    resizecons
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ ~/sp/0903/heool[K[K[Kllo
+bash: /home/system/sp/0903/hello: No such file or directory
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ rt[K[Ktrtttt
+trtttt: command not found
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ ps
+  PID TTY          TIME CMD
+  194 pts/2    00:00:00 bash
+  256 pts/2    00:00:00 ps
+]0;system@DESKTOP-CB40Q7H: ~/sp/0910[01;32msystem@DESKTOP-CB40Q7H[00m:[01;34m~/sp/0910[00m$ exit
